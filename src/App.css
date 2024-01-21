@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: pink;
+}
+.korteles{
+  width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+.kortele1{
+  width: 30%;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+}
+/*  */
+.reviewCard{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+padding: 10px;
+}
+.reviewCard1{
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
